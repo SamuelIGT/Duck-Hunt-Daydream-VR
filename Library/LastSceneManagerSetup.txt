@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/GoogleVR/Demos/Scenes/KeyboardDemo.unity
+- path: Assets/Scene/Fase 1.unity
   isLoaded: 1
   isActive: 1

@@ -1,9 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\DuckController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Temp\Movimentacao.cs">
     <Files>
-      <File FileName="Assets\Script\DuckController.cs" Line="15" Column="17" />
-      <File FileName="Assets\Script\SpawnController.cs" Line="31" Column="58" />
+      <File FileName="Assets\Script\DuckController.cs" Line="17" Column="8" />
+      <File FileName="Assets\Temp\Movimentacao.cs" Line="15" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

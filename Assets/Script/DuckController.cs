@@ -28,4 +28,8 @@ public class DuckController : MonoBehaviour {
 		float y = Random.Range (minAngleY, maxAngleY);
 		return new Vector3 (x, y, 0);
 	}
+
+    public void DetectHit() {
+        Destroy(this.gameObject);
+    }
 }

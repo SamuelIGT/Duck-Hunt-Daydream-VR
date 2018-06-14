@@ -6,6 +6,8 @@ public class DuckController : MonoBehaviour {
 	private Vector3 dir;
 	private Vector3 angle;
 
+    public GameObject explosionFX;
+
 	public float minAngleX;
 	public float maxAngleX;
 	public float minAngleY;
@@ -19,7 +21,7 @@ public class DuckController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.position += (transform.forward * speed) * Time.deltaTime;
+        transform.position += (transform.forward * speed) * Time.deltaTime;
 		//transform.position += (Vector3.forward * speed) * Time.deltaTime;
 		
 	}
@@ -31,5 +33,7 @@ public class DuckController : MonoBehaviour {
 
     public void DetectHit() {
         Destroy(this.gameObject);
+        GameObject explosion = Instantiate(explosionFX) as GameObject;
+        explosion.transform.position = this.transform.position;
     }
 }

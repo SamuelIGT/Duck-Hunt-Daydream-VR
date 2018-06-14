@@ -275,9 +275,6 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="Google.ProtocolBuffers">
-      <HintPath>Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/Users/samue/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
@@ -299,6 +296,33 @@
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/samue/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
+    <Reference Include="JMOAssets_CartoonFXFreeWelcome">
+      <HintPath>Assets/External Assets/JMO Assets/Editor/JMOAssets_CartoonFXFreeWelcome.dll</HintPath>
+    </Reference>
+    <Reference Include="JMOAssets">
+      <HintPath>Assets/External Assets/JMO Assets/Editor/JMOAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.ProtocolBuffers">
+      <HintPath>Assets/External Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderEditor-Unity5">
+      <HintPath>Assets/External Assets/ProCore/ProBuilder/Editor/ProBuilderEditor-Unity5.dll</HintPath>
+    </Reference>
+    <Reference Include="Poly2Tri">
+      <HintPath>Assets/External Assets/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
+    </Reference>
+    <Reference Include="KdTreeLib">
+      <HintPath>Assets/External Assets/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="pb_Stl">
+      <HintPath>Assets/External Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderCore-Unity5">
+      <HintPath>Assets/External Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderMeshOps-Unity5">
+      <HintPath>Assets/External Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Duck-Hunt-Daydream-VR.csproj">
@@ -307,82 +331,160 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\DaydreamElements\Common\Demo\Scripts\Editor\Utility\CombineMeshFiltersEditor.cs" />
-    <Compile Include="Assets\DaydreamElements\Common\Scripts\Editor\Utility\AssetTreePropertyDrawer.cs" />
-    <Compile Include="Assets\DaydreamElements\Common\Scripts\PaginatedScrolling\Editor\PagedScrollbarEditor.cs" />
-    <Compile Include="Assets\GoogleVR\Editor\Controller\GvrControllerVisualEditor.cs" />
-    <Compile Include="Assets\GoogleVR\Editor\Controller\GvrLaserPointerEditor.cs" />
-    <Compile Include="Assets\GoogleVR\Editor\Controller\GvrLaserVisualEditor.cs" />
-    <Compile Include="Assets\GoogleVR\Editor\Controller\GvrTooltipEditor.cs" />
-    <Compile Include="Assets\GoogleVR\Editor\EventSystem\GvrPointerScrollInputEditor.cs" />
-    <Compile Include="Assets\GoogleVR\Editor\GvrBuildProcessor.cs" />
-    <Compile Include="Assets\GoogleVR\Editor\GvrEditorEmulatorEditor.cs" />
-    <Compile Include="Assets\GoogleVR\Editor\GvrEditorMenu.cs" />
-    <Compile Include="Assets\GoogleVR\Editor\GvrEditorSettings.cs" />
-    <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioListenerEditor.cs" />
-    <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioRoomEditor.cs" />
-    <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioSoundfieldEditor.cs" />
-    <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioSourceEditor.cs" />
-    <Compile Include="Assets\ProCore\ProGrids\About\Editor\pg_AboutWindow.cs" />
-    <Compile Include="Assets\ProCore\ProGrids\Editor\pg_Editor.cs" />
-    <Compile Include="Assets\ProCore\ProGrids\Editor\pg_GridRenderer.cs" />
-    <Compile Include="Assets\ProCore\ProGrids\Editor\pg_ParameterWindow.cs" />
-    <Compile Include="Assets\ProCore\ProGrids\Editor\pg_Preferences.cs" />
-    <Compile Include="Assets\ProCore\ProGrids\Editor\pg_ToggleContent.cs" />
+    <Compile Include="Assets\External Assets\DaydreamElements\Common\Demo\Scripts\Editor\Utility\CombineMeshFiltersEditor.cs" />
+    <Compile Include="Assets\External Assets\DaydreamElements\Common\Scripts\Editor\Utility\AssetTreePropertyDrawer.cs" />
+    <Compile Include="Assets\External Assets\DaydreamElements\Common\Scripts\PaginatedScrolling\Editor\PagedScrollbarEditor.cs" />
+    <Compile Include="Assets\External Assets\GoogleVR\Editor\Controller\GvrControllerVisualEditor.cs" />
+    <Compile Include="Assets\External Assets\GoogleVR\Editor\Controller\GvrLaserPointerEditor.cs" />
+    <Compile Include="Assets\External Assets\GoogleVR\Editor\Controller\GvrLaserVisualEditor.cs" />
+    <Compile Include="Assets\External Assets\GoogleVR\Editor\Controller\GvrTooltipEditor.cs" />
+    <Compile Include="Assets\External Assets\GoogleVR\Editor\EventSystem\GvrPointerScrollInputEditor.cs" />
+    <Compile Include="Assets\External Assets\GoogleVR\Editor\GvrBuildProcessor.cs" />
+    <Compile Include="Assets\External Assets\GoogleVR\Editor\GvrEditorEmulatorEditor.cs" />
+    <Compile Include="Assets\External Assets\GoogleVR\Editor\GvrEditorMenu.cs" />
+    <Compile Include="Assets\External Assets\GoogleVR\Editor\GvrEditorSettings.cs" />
+    <Compile Include="Assets\External Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioListenerEditor.cs" />
+    <Compile Include="Assets\External Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioRoomEditor.cs" />
+    <Compile Include="Assets\External Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioSoundfieldEditor.cs" />
+    <Compile Include="Assets\External Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioSourceEditor.cs" />
+    <Compile Include="Assets\External Assets\JMO Assets\Cartoon FX Easy Editor\Editor\CFXEasyEditor.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\About\Editor\pb_AboutWindow.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\About\Editor\pb_UpdateAvailable.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\About\Editor\pb_VersionInfo.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\About\Editor\pb_VersionUtil.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\API Examples\Editor\ClearUnusedAttributes.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\API Examples\Editor\CreateShadowObject.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\API Examples\Editor\CustomAction.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\API Examples\Editor\EditorCallbackViewer.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\API Examples\Editor\RenameNewObjects.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\API Examples\Editor\SetCustomUnwrapParams.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\Addons\pb_Fbx.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_ExportObj.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_GenerateUV2.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_MakeMeshAsset.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_ProBuilderize.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_StripProBuilderScripts.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_BridgeEdges.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_ConformNormals.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_ConnectEdges.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_DetachDeleteFace.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_ExtrudeElement.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_FlipEdge.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_FlipNormals.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_FreezeTransform.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_MergeFaces.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_SetPivot.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_Triangulate.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_VertexMergeWeld.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_CleanLeakedMeshes.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_ForceSceneRefresh.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_RebuildMeshes.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_RebuildSharedIndices.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_RemoveDegenerateTris.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_RepairColors.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_RepairMeshReferences.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_RepairUV.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_ResetEntityMaterials.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_UpgradeBasicToAdvanced.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Selection\pb_EdgeSelection.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Selection\pb_ExpandSelection.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Selection\pb_InvertSelection.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Selection\pb_MaterialSelection.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Tools\pb_BooleanInterface.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Tools\pb_MaterialSelection.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\MenuItems\Window\pb_ProBuilderMenuItems.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\pb_MenuItems.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\pb_MissingScriptEditor.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\pb_Preferences.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProBuilder\Editor\pb_ScenePostProcessor.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProGrids\About\Editor\pg_AboutWindow.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProGrids\Editor\pg_Editor.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProGrids\Editor\pg_GridRenderer.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProGrids\Editor\pg_ParameterWindow.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProGrids\Editor\pg_Preferences.cs" />
+    <Compile Include="Assets\External Assets\ProCore\ProGrids\Editor\pg_ToggleContent.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\DaydreamElements\Common\Demo\Art\Effects\ExponentialShadowMaps\Example\ESMReceiverTemplate.shader" />
-    <None Include="Assets\DaydreamElements\Common\Demo\Art\Effects\ExponentialShadowMaps\Shaders\Combine.shader" />
-    <None Include="Assets\DaydreamElements\Common\Demo\Art\Effects\ExponentialShadowMaps\Shaders\Depth32.shader" />
-    <None Include="Assets\DaydreamElements\Common\Demo\Art\Effects\ExponentialShadowMaps\Shaders\FastBlur.shader" />
-    <None Include="Assets\DaydreamElements\Common\Demo\Art\Effects\ExponentialShadowMaps\Shaders\ScreenSpace.shader" />
-    <None Include="Assets\DaydreamElements\Common\Demo\Art\Effects\Stars\Stars.shader" />
-    <None Include="Assets\DaydreamElements\Common\Demo\Shaders\DaydreamElementsLighting\DaydreamElementsLighting.cginc" />
-    <None Include="Assets\DaydreamElements\Common\Demo\Shaders\DaydreamElementsLighting\DynamicVertColorSimpleAO.shader" />
-    <None Include="Assets\DaydreamElements\Common\Demo\Shaders\DaydreamElementsLighting\DynamicVertColorWind.shader" />
-    <None Include="Assets\DaydreamElements\Common\Demo\Shaders\DaydreamElementsLighting\GlowingOrb.shader" />
-    <None Include="Assets\DaydreamElements\Common\Demo\Shaders\DaydreamElementsLighting\VertColorDiffuse.shader" />
-    <None Include="Assets\DaydreamElements\Common\Demo\Shaders\ExponentialShadowMaps\SnowTerrainESMReceiver.shader" />
-    <None Include="Assets\DaydreamElements\Common\Demo\Shaders\ExponentialShadowMaps\UnlitVertColorESMReceiver.shader" />
-    <None Include="Assets\DaydreamElements\Common\Demo\Shaders\InfoCardSpectrumBG.shader" />
-    <None Include="Assets\DaydreamElements\Common\Demo\Shaders\InfoCardText.shader" />
-    <None Include="Assets\DaydreamElements\Common\Demo\Shaders\ParticleSolidColorAdditive.shader" />
-    <None Include="Assets\DaydreamElements\Common\Demo\Shaders\PolyObjectLibrary.shader" />
-    <None Include="Assets\DaydreamElements\Common\Demo\Shaders\ScrollingParticleClouds.shader" />
-    <None Include="Assets\DaydreamElements\Common\Demo\Shaders\SnowTerrain.shader" />
-    <None Include="Assets\DaydreamElements\Common\Demo\Shaders\TextShader.shader" />
-    <None Include="Assets\DaydreamElements\Common\Demo\Shaders\UnlitTransparentColor.shader" />
-    <None Include="Assets\DaydreamElements\Common\Demo\Shaders\UnlitVertColor.shader" />
-    <None Include="Assets\DaydreamElements\Common\Demo\Shaders\UnlitVertColorAOTransparent.shader" />
-    <None Include="Assets\DaydreamElements\Common\Demo\Shaders\UnlitVertColorBakedIllum.shader" />
-    <None Include="Assets\DaydreamElements\Common\Demo\Shaders\UnlitVertColorSky.shader" />
-    <None Include="Assets\DaydreamElements\Common\Demo\Shaders\UnlitVertColorSolidOverlay.shader" />
-    <None Include="Assets\DaydreamElements\Common\Demo\Shaders\UnlitVertColorTransparent.shader" />
-    <None Include="Assets\DaydreamElements\Common\Demo\Shaders\VertexColorSimpleDiffuse.shader" />
-    <None Include="Assets\DaydreamElements\Common\Demo\Shaders\VertexColorize.shader" />
-    <None Include="Assets\DaydreamElements\Elements\ArmModels\Demo\Shaders\ControllerOutline.shader" />
-    <None Include="Assets\DaydreamElements\Elements\ArmModels\Demo\Shaders\Mirror.shader" />
-    <None Include="Assets\DaydreamElements\Elements\ArmModels\Demo\Shaders\ModeHighlight.shader" />
-    <None Include="Assets\DaydreamElements\Elements\ArmModels\Demo\Shaders\Trail.shader" />
-    <None Include="Assets\DaydreamElements\Elements\ArmModels\Demo\Shaders\UnlitVertColorTransparentOutline.shader" />
-    <None Include="Assets\DaydreamElements\Elements\ArmModels\Demo\Shaders\ZapperRay.shader" />
-    <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-6DOF.xml" />
-    <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Cardboard.xml" />
-    <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Daydream.xml" />
-    <None Include="Assets\GoogleVR\Plugins\Android\proguard-gvr.txt" />
-    <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
-    <None Include="Assets\GoogleVR\Shaders\GvrController.shader" />
-    <None Include="Assets\GoogleVR\Shaders\GvrControllerReticle.shader" />
-    <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
-    <None Include="Assets\GoogleVR\Shaders\GvrUIOverlay.shader" />
-    <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
-    <None Include="Assets\GoogleVR\Shaders\GvrUnlitTextureOverlay.shader" />
-    <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlay.shader" />
-    <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlayColor.shader" />
-    <None Include="Assets\GoogleVR\Shaders\Video\VideoUnlitShader.shader" />
-    <None Include="Assets\ProCore\ProGrids\About\changelog.txt" />
-    <None Include="Assets\ProCore\ProGrids\About\pc_AboutEntry_ProGrids.txt" />
-    <None Include="Assets\ProCore\ProGrids\Shader\pg_GridShader.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Art\Effects\ExponentialShadowMaps\Example\ESMReceiverTemplate.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Art\Effects\ExponentialShadowMaps\Shaders\Combine.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Art\Effects\ExponentialShadowMaps\Shaders\Depth32.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Art\Effects\ExponentialShadowMaps\Shaders\FastBlur.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Art\Effects\ExponentialShadowMaps\Shaders\ScreenSpace.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Art\Effects\Stars\Stars.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Shaders\DaydreamElementsLighting\DaydreamElementsLighting.cginc" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Shaders\DaydreamElementsLighting\DynamicVertColorSimpleAO.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Shaders\DaydreamElementsLighting\DynamicVertColorWind.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Shaders\DaydreamElementsLighting\GlowingOrb.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Shaders\DaydreamElementsLighting\VertColorDiffuse.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Shaders\ExponentialShadowMaps\SnowTerrainESMReceiver.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Shaders\ExponentialShadowMaps\UnlitVertColorESMReceiver.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Shaders\InfoCardSpectrumBG.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Shaders\InfoCardText.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Shaders\ParticleSolidColorAdditive.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Shaders\PolyObjectLibrary.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Shaders\ScrollingParticleClouds.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Shaders\SnowTerrain.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Shaders\TextShader.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Shaders\UnlitTransparentColor.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Shaders\UnlitVertColor.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Shaders\UnlitVertColorAOTransparent.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Shaders\UnlitVertColorBakedIllum.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Shaders\UnlitVertColorSky.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Shaders\UnlitVertColorSolidOverlay.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Shaders\UnlitVertColorTransparent.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Shaders\VertexColorSimpleDiffuse.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Shaders\VertexColorize.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Elements\ArmModels\Demo\Shaders\ControllerOutline.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Elements\ArmModels\Demo\Shaders\Mirror.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Elements\ArmModels\Demo\Shaders\ModeHighlight.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Elements\ArmModels\Demo\Shaders\Trail.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Elements\ArmModels\Demo\Shaders\UnlitVertColorTransparentOutline.shader" />
+    <None Include="Assets\External Assets\DaydreamElements\Elements\ArmModels\Demo\Shaders\ZapperRay.shader" />
+    <None Include="Assets\External Assets\GoogleVR\Plugins\Android\AndroidManifest-6DOF.xml" />
+    <None Include="Assets\External Assets\GoogleVR\Plugins\Android\AndroidManifest-Cardboard.xml" />
+    <None Include="Assets\External Assets\GoogleVR\Plugins\Android\AndroidManifest-Daydream.xml" />
+    <None Include="Assets\External Assets\GoogleVR\Plugins\Android\proguard-gvr.txt" />
+    <None Include="Assets\External Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
+    <None Include="Assets\External Assets\GoogleVR\Shaders\GvrController.shader" />
+    <None Include="Assets\External Assets\GoogleVR\Shaders\GvrControllerReticle.shader" />
+    <None Include="Assets\External Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
+    <None Include="Assets\External Assets\GoogleVR\Shaders\GvrUIOverlay.shader" />
+    <None Include="Assets\External Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
+    <None Include="Assets\External Assets\GoogleVR\Shaders\GvrUnlitTextureOverlay.shader" />
+    <None Include="Assets\External Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlay.shader" />
+    <None Include="Assets\External Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlayColor.shader" />
+    <None Include="Assets\External Assets\GoogleVR\Shaders\Video\VideoUnlitShader.shader" />
+    <None Include="Assets\External Assets\JMO Assets\!JMO Assets Readme.txt" />
+    <None Include="Assets\External Assets\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
+    <None Include="Assets\External Assets\JMO Assets\Cartoon FX\CartoonFX Free.txt" />
+    <None Include="Assets\External Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
+    <None Include="Assets\External Assets\JMO Assets\Cartoon FX\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
+    <None Include="Assets\External Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\README.txt" />
+    <None Include="Assets\External Assets\ProCore\ProBuilder\About\Font\SIL Open Font License.txt" />
+    <None Include="Assets\External Assets\ProCore\ProBuilder\About\ThirdPartyLicenses.txt" />
+    <None Include="Assets\External Assets\ProCore\ProBuilder\About\changelog.txt" />
+    <None Include="Assets\External Assets\ProCore\ProBuilder\About\pc_AboutEntry_ProBuilder.txt" />
+    <None Include="Assets\External Assets\ProCore\ProBuilder\Shader\DiffuseTextureBlend.shader" />
+    <None Include="Assets\External Assets\ProCore\ProBuilder\Shader\DiffuseVertexColor.shader" />
+    <None Include="Assets\External Assets\ProCore\ProBuilder\Shader\pb_FaceHighlight.shader" />
+    <None Include="Assets\External Assets\ProCore\ProBuilder\Shader\pb_FacePicker.shader" />
+    <None Include="Assets\External Assets\ProCore\ProBuilder\Shader\pb_HideVertices.shader" />
+    <None Include="Assets\External Assets\ProCore\ProBuilder\Shader\pb_NormalPreview.shader" />
+    <None Include="Assets\External Assets\ProCore\ProBuilder\Shader\pb_ReferenceUnlit.shader" />
+    <None Include="Assets\External Assets\ProCore\ProBuilder\Shader\pb_ScrollHighlight.shader" />
+    <None Include="Assets\External Assets\ProCore\ProBuilder\Shader\pb_SelectionPicker.shader" />
+    <None Include="Assets\External Assets\ProCore\ProBuilder\Shader\pb_SmoothingPreview.shader" />
+    <None Include="Assets\External Assets\ProCore\ProBuilder\Shader\pb_StandardVertexColor.shader" />
+    <None Include="Assets\External Assets\ProCore\ProBuilder\Shader\pb_TransparentOverlay.shader" />
+    <None Include="Assets\External Assets\ProCore\ProBuilder\Shader\pb_UnlitSolidColor.shader" />
+    <None Include="Assets\External Assets\ProCore\ProBuilder\Shader\pb_UnlitVertexColor.shader" />
+    <None Include="Assets\External Assets\ProCore\ProBuilder\Shader\pb_VertexPicker.shader" />
+    <None Include="Assets\External Assets\ProCore\ProBuilder\Shader\pb_VertexShader.shader" />
+    <None Include="Assets\External Assets\ProCore\ProBuilder\readme.txt" />
+    <None Include="Assets\External Assets\ProCore\ProGrids\About\changelog.txt" />
+    <None Include="Assets\External Assets\ProCore\ProGrids\About\pc_AboutEntry_ProGrids.txt" />
+    <None Include="Assets\External Assets\ProCore\ProGrids\Shader\pg_GridShader.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

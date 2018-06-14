@@ -21,10 +21,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 929
-  m_MinSize: {x: 683, y: 342}
-  m_MaxSize: {x: 12008, y: 8042}
+  m_MinSize: {x: 713, y: 492}
+  m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 8423
+  controlID: 11085
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -122,10 +122,10 @@ MonoBehaviour:
     y: 0
     width: 469
     height: 929
-  m_MinSize: {x: 202, y: 342}
-  m_MaxSize: {x: 4002, y: 8042}
+  m_MinSize: {x: 232, y: 492}
+  m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 8390
+  controlID: 11086
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -180,8 +180,8 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b8420000
-    m_LastClickedID: 17080
+    m_SelectedIDs: 90420000
+    m_LastClickedID: 17040
     m_ExpandedIDs: 9cfbffff0000000098420000b2420000b8420000d6420000da420000e84200003a430000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -223,15 +223,15 @@ MonoBehaviour:
     y: 417
     width: 469
     height: 512
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 8}
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_ActualView: {fileID: 7}
   m_Panes:
   - {fileID: 7}
   - {fileID: 8}
   - {fileID: 9}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -271,18 +271,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Animation
+    - Assets/Textures
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Animation
+  - Assets/Textures
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\samue\Development\Game Development\Unity\Projetos\Duck-Hunt-Daydream-VR
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ac320000
-    m_LastClickedID: 12972
+    m_SelectedIDs: 9a3c0000
+    m_LastClickedID: 15514
     m_ExpandedIDs: 00000000d82c00003a2d0000682d0000982d0000e82d0000ca2e0000222f00002c2f0000822f0000fa30000032310000c631000006320000ac3200003a3300008034000040360000503800007238000084380000e2380000163900007e3a0000803a00009a3a0000b83a0000163b0000163c0000963c0000663d0000c03d0000363e00006c3e0000f03e0000f43e0000bc3f000052410000d843000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -336,8 +336,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 98420000
-    m_LastClickedInstanceID: 17048
+    m_SelectedInstanceIDs: 90420000
+    m_LastClickedInstanceID: 17040
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000ac2c0000b64b0000263500005c350000ba2c0000ae2a0000e82a000032350000b830000000000000f02d0000544600007446000080460000a638000020400000f62e0000
     m_RenameOverlay:
@@ -449,7 +449,7 @@ MonoBehaviour:
   - {fileID: 12}
   - {fileID: 13}
   m_Selected: 1
-  m_LastSelected: 2
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -509,13 +509,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.0073357024, y: 0.98473793, z: -0.04286314, w: -0.16853005}
+    m_Target: {x: 0.07167057, y: 0.81931025, z: -0.10503194, w: 0.55907357}
     speed: 2
-    m_Value: {x: -0.007335692, y: 0.98473686, z: -0.0428631, w: -0.16852987}
+    m_Value: {x: 0.07167053, y: 0.81930983, z: -0.105031885, w: 0.5590733}
   m_Size:
-    m_Target: 3.2304575
+    m_Target: 2.6123238
     speed: 2
-    m_Value: 3.2304575
+    m_Value: 2.6123238
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -636,10 +636,10 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 8d877782f864cfb45852e3f7eab7b94a,
+  m_AnimatorController: {fileID: 9100000, guid: 34f414f4f4e385646bed22c4d6d26cba,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 1107215710469421962, guid: 8d877782f864cfb45852e3f7eab7b94a,
+  - m_Target: {fileID: 1107931737222569818, guid: 34f414f4f4e385646bed22c4d6d26cba,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -704,7 +704,7 @@ MonoBehaviour:
     width: 559
     height: 908
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_ScrollPosition: {x: 0, y: 438.95508}
+  m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 160

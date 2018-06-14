@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class TVScreenBlackout : MonoBehaviour {
-
+    public EyeBlink eyeBlink;
+    public float blinkDelayInSeconds;
 	// Use this for initialization
 	void Start () {
     }
@@ -15,6 +16,18 @@ public class TVScreenBlackout : MonoBehaviour {
 
     public void blackoutScreen() {
         //gameObject.SetActive(true);
-        GetComponent<Animator>().SetBool("blackoutScreen", true);
+        Animator animator = GetComponent<Animator>();
+        animator.SetBool("blackoutScreen", true);
+
+        Invoke("blinkEye", blinkDelayInSeconds);
+        
+        //if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1 /*&& ("Screen Blackout")*/) {
+        //    Debug.Log("Animação acabou!");
+        //}
+    }
+
+    private void blinkEye()
+    {
+        eyeBlink.blinkEye();
     }
 }

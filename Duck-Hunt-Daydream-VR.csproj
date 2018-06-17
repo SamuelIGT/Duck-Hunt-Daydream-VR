@@ -517,6 +517,8 @@
     <Compile Include="Assets\External Assets\ProCore\ProGrids\MonoBehaviour\pg_IgnoreSnap.cs" />
     <Compile Include="Assets\Script\DuckController.cs" />
     <Compile Include="Assets\Script\EyeBlink.cs" />
+    <Compile Include="Assets\Script\FlipPages.cs" />
+    <Compile Include="Assets\Script\MagazineSkills.cs" />
     <Compile Include="Assets\Script\MenuSelectionController.cs" />
     <Compile Include="Assets\Script\ParticleDestroyer.cs" />
     <Compile Include="Assets\Script\SpawnController.cs" />

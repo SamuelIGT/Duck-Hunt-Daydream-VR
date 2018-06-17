@@ -233,7 +233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63a9676e8291d0b44adb8b5bce19c03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionFX: {fileID: 100000, guid: 83cd9cc9f9c88824ba18dc59b05ae328, type: 2}
+  explosionFX: {fileID: 100018, guid: a40b64bf23366dc42a892af2c6ff6140, type: 2}
   minAngleX: -70
   maxAngleX: -20
   minAngleY: 0

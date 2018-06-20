@@ -19,14 +19,22 @@ ModelImporter:
     2300002: Plane_MeshPart1
     2300004: Plane_MeshPart2
     2300006: Plane_MeshPart3
+    2300008: //RootNode
     3300000: Plane_MeshPart0
     3300002: Plane_MeshPart1
     3300004: Plane_MeshPart2
     3300006: Plane_MeshPart3
+    3300008: //RootNode
     4300000: Plane_MeshPart0
     4300002: Plane_MeshPart1
     4300004: Plane_MeshPart2
     4300006: Plane_MeshPart3
+    4300008: Plane
+    6400000: Plane_MeshPart0
+    6400002: Plane_MeshPart1
+    6400004: Plane_MeshPart2
+    6400006: Plane_MeshPart3
+    6400008: //RootNode
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -57,7 +65,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

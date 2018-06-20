@@ -59,7 +59,15 @@
      <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioRoomEditor.cs" />
      <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioSoundfieldEditor.cs" />
      <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioSourceEditor.cs" />
+     <Compile Include="Assets\ProCore\ProGrids\About\Editor\pg_AboutWindow.cs" />
+     <Compile Include="Assets\ProCore\ProGrids\Editor\pg_Editor.cs" />
+     <Compile Include="Assets\ProCore\ProGrids\Editor\pg_GridRenderer.cs" />
+     <Compile Include="Assets\ProCore\ProGrids\Editor\pg_ParameterWindow.cs" />
+     <Compile Include="Assets\ProCore\ProGrids\Editor\pg_Preferences.cs" />
+     <Compile Include="Assets\ProCore\ProGrids\Editor\pg_ToggleContent.cs" />
+     <None Include="Assets\ProCore\ProGrids\Shader\pg_GridShader.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
+     <None Include="Assets\ProCore\ProGrids\About\pc_AboutEntry_ProGrids.txt" />
      <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrController.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlay.shader" />
@@ -68,7 +76,9 @@
      <None Include="Assets\GoogleVR\Shaders\Video\VideoUnlitShader.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnlitTextureOverlay.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrControllerReticle.shader" />
+     <None Include="Assets\ProCore\ProGrids\About\changelog.txt" />
      <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Daydream.xml" />
+     <None Include="Assets\GeoPainter\readme.txt" />
      <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlay.shader" />
      <None Include="Assets\GoogleVR\Plugins\Android\proguard-gvr.txt" />
@@ -140,6 +150,8 @@
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{C2440A75-F701-E8B6-F26A-5185D9526EFC}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript.unityproj">
+      <Project>{7B3236FC-4DCE-D09D-B097-799A12C36553}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

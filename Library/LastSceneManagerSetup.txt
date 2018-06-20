@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/Fase 1.unity
+- path: Assets/Scene/Menu (Quarto).unity
   isLoaded: 1
   isActive: 1

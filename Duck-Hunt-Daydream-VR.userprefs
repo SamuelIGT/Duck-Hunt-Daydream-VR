@@ -1,9 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Temp\Movimentacao.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GeoPainter\Scripts\Editor\GeoPainterEditor.js">
     <Files>
-      <File FileName="Assets\Script\DuckController.cs" Line="17" Column="8" />
-      <File FileName="Assets\Temp\Movimentacao.cs" Line="15" Column="18" />
+      <File FileName="Assets\Script\DuckController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Temp\Movimentacao.cs" Line="1" Column="1" />
+      <File FileName="Assets\GeoPainter\Scripts\Editor\GeoPainterEditor.js" Line="766" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

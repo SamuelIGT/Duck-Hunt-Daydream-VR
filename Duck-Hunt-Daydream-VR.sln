@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Duck-Hunt-Daydream-VR", "As
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Duck-Hunt-Daydream-VR", "Assembly-CSharp-Editor.csproj", "{051CD92C-3DBB-3C4A-B379-AD3219C09593}"
 EndProject
+Project("{0F934CE6-255E-EB25-8D70-6CDFD0737DEA}") = "Duck-Hunt-Daydream-VR", "Assembly-UnityScript.unityproj", "{7B3236FC-4DCE-D09D-B097-799A12C36553}"
+EndProject
+Project("{0F934CE6-255E-EB25-8D70-6CDFD0737DEA}") = "Duck-Hunt-Daydream-VR", "Assembly-UnityScript-Editor.unityproj", "{E7463C16-481C-9309-D353-E3E9FC7193E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,14 @@ Global
 		{051CD92C-3DBB-3C4A-B379-AD3219C09593}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{051CD92C-3DBB-3C4A-B379-AD3219C09593}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{051CD92C-3DBB-3C4A-B379-AD3219C09593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B3236FC-4DCE-D09D-B097-799A12C36553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B3236FC-4DCE-D09D-B097-799A12C36553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B3236FC-4DCE-D09D-B097-799A12C36553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B3236FC-4DCE-D09D-B097-799A12C36553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7463C16-481C-9309-D353-E3E9FC7193E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7463C16-481C-9309-D353-E3E9FC7193E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7463C16-481C-9309-D353-E3E9FC7193E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7463C16-481C-9309-D353-E3E9FC7193E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

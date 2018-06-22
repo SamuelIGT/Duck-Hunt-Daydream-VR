@@ -1,0 +1,781 @@
+fileFormatVersion: 2
+guid: f6e6d7067b3d29848845dc2921a74906
+timeCreated: 1526421365
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: asa_l
+    100004: asa_r
+    100006: bacia_l
+    100008: bacia_r
+    100010: cabeca
+    100012: canela_l
+    100014: canela_r
+    100016: cauda
+    100018: coluna
+    100020: coxa_l
+    100022: coxa_r
+    100024: Objeto
+    100026: ombro_l
+    100028: ombro_r
+    100030: //RootNode
+    100032: pe_l
+    100034: pe_r
+    100036: ponta-asa_l
+    100038: ponta-asa_r
+    100040: ponta-cauda
+    100042: principal
+    400000: Armature
+    400002: asa_l
+    400004: asa_r
+    400006: bacia_l
+    400008: bacia_r
+    400010: cabeca
+    400012: canela_l
+    400014: canela_r
+    400016: cauda
+    400018: coluna
+    400020: coxa_l
+    400022: coxa_r
+    400024: Objeto
+    400026: ombro_l
+    400028: ombro_r
+    400030: //RootNode
+    400032: pe_l
+    400034: pe_r
+    400036: ponta-asa_l
+    400038: ponta-asa_r
+    400040: ponta-cauda
+    400042: principal
+    4300000: Objeto
+    7400000: Default Take
+    7400002: bicar
+    7400004: decolar
+    7400006: idle
+    7400008: look
+    7400010: pousar
+    7400012: run
+    7400014: voar
+    7400016: walk
+    9500000: //RootNode
+    13700000: Objeto
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: -1
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/principal
+        weight: 1
+      - path: Armature/principal/coluna
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l/coxa_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l/coxa_l/canela_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l/coxa_l/canela_l/pe_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r/coxa_r
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r/coxa_r/canela_r
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r/coxa_r/canela_r/pe_r
+        weight: 1
+      - path: Armature/principal/coluna/cabeca
+        weight: 1
+      - path: Armature/principal/coluna/cauda
+        weight: 1
+      - path: Armature/principal/coluna/cauda/ponta-cauda
+        weight: 1
+      - path: Armature/principal/coluna/ombro_l
+        weight: 1
+      - path: Armature/principal/coluna/ombro_l/asa_l
+        weight: 1
+      - path: Armature/principal/coluna/ombro_l/asa_l/ponta-asa_l
+        weight: 1
+      - path: Armature/principal/coluna/ombro_r
+        weight: 1
+      - path: Armature/principal/coluna/ombro_r/asa_r
+        weight: 1
+      - path: Armature/principal/coluna/ombro_r/asa_r/ponta-asa_r
+        weight: 1
+      - path: Objeto
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bicar
+      takeName: bicar
+      firstFrame: -1
+      lastFrame: 69
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/principal
+        weight: 1
+      - path: Armature/principal/coluna
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l/coxa_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l/coxa_l/canela_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l/coxa_l/canela_l/pe_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r/coxa_r
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r/coxa_r/canela_r
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r/coxa_r/canela_r/pe_r
+        weight: 1
+      - path: Armature/principal/coluna/cabeca
+        weight: 1
+      - path: Armature/principal/coluna/cauda
+        weight: 1
+      - path: Armature/principal/coluna/cauda/ponta-cauda
+        weight: 1
+      - path: Armature/principal/coluna/ombro_l
+        weight: 1
+      - path: Armature/principal/coluna/ombro_l/asa_l
+        weight: 1
+      - path: Armature/principal/coluna/ombro_l/asa_l/ponta-asa_l
+        weight: 1
+      - path: Armature/principal/coluna/ombro_r
+        weight: 1
+      - path: Armature/principal/coluna/ombro_r/asa_r
+        weight: 1
+      - path: Armature/principal/coluna/ombro_r/asa_r/ponta-asa_r
+        weight: 1
+      - path: Objeto
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: decolar
+      takeName: decolar
+      firstFrame: -1
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/principal
+        weight: 1
+      - path: Armature/principal/coluna
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l/coxa_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l/coxa_l/canela_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l/coxa_l/canela_l/pe_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r/coxa_r
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r/coxa_r/canela_r
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r/coxa_r/canela_r/pe_r
+        weight: 1
+      - path: Armature/principal/coluna/cabeca
+        weight: 1
+      - path: Armature/principal/coluna/cauda
+        weight: 1
+      - path: Armature/principal/coluna/cauda/ponta-cauda
+        weight: 1
+      - path: Armature/principal/coluna/ombro_l
+        weight: 1
+      - path: Armature/principal/coluna/ombro_l/asa_l
+        weight: 1
+      - path: Armature/principal/coluna/ombro_l/asa_l/ponta-asa_l
+        weight: 1
+      - path: Armature/principal/coluna/ombro_r
+        weight: 1
+      - path: Armature/principal/coluna/ombro_r/asa_r
+        weight: 1
+      - path: Armature/principal/coluna/ombro_r/asa_r/ponta-asa_r
+        weight: 1
+      - path: Objeto
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: idle
+      firstFrame: -1
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/principal
+        weight: 1
+      - path: Armature/principal/coluna
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l/coxa_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l/coxa_l/canela_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l/coxa_l/canela_l/pe_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r/coxa_r
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r/coxa_r/canela_r
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r/coxa_r/canela_r/pe_r
+        weight: 1
+      - path: Armature/principal/coluna/cabeca
+        weight: 1
+      - path: Armature/principal/coluna/cauda
+        weight: 1
+      - path: Armature/principal/coluna/cauda/ponta-cauda
+        weight: 1
+      - path: Armature/principal/coluna/ombro_l
+        weight: 1
+      - path: Armature/principal/coluna/ombro_l/asa_l
+        weight: 1
+      - path: Armature/principal/coluna/ombro_l/asa_l/ponta-asa_l
+        weight: 1
+      - path: Armature/principal/coluna/ombro_r
+        weight: 1
+      - path: Armature/principal/coluna/ombro_r/asa_r
+        weight: 1
+      - path: Armature/principal/coluna/ombro_r/asa_r/ponta-asa_r
+        weight: 1
+      - path: Objeto
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: look
+      takeName: look
+      firstFrame: -1
+      lastFrame: 139
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/principal
+        weight: 1
+      - path: Armature/principal/coluna
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l/coxa_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l/coxa_l/canela_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l/coxa_l/canela_l/pe_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r/coxa_r
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r/coxa_r/canela_r
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r/coxa_r/canela_r/pe_r
+        weight: 1
+      - path: Armature/principal/coluna/cabeca
+        weight: 1
+      - path: Armature/principal/coluna/cauda
+        weight: 1
+      - path: Armature/principal/coluna/cauda/ponta-cauda
+        weight: 1
+      - path: Armature/principal/coluna/ombro_l
+        weight: 1
+      - path: Armature/principal/coluna/ombro_l/asa_l
+        weight: 1
+      - path: Armature/principal/coluna/ombro_l/asa_l/ponta-asa_l
+        weight: 1
+      - path: Armature/principal/coluna/ombro_r
+        weight: 1
+      - path: Armature/principal/coluna/ombro_r/asa_r
+        weight: 1
+      - path: Armature/principal/coluna/ombro_r/asa_r/ponta-asa_r
+        weight: 1
+      - path: Objeto
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pousar
+      takeName: pousar
+      firstFrame: -1
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/principal
+        weight: 1
+      - path: Armature/principal/coluna
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l/coxa_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l/coxa_l/canela_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l/coxa_l/canela_l/pe_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r/coxa_r
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r/coxa_r/canela_r
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r/coxa_r/canela_r/pe_r
+        weight: 1
+      - path: Armature/principal/coluna/cabeca
+        weight: 1
+      - path: Armature/principal/coluna/cauda
+        weight: 1
+      - path: Armature/principal/coluna/cauda/ponta-cauda
+        weight: 1
+      - path: Armature/principal/coluna/ombro_l
+        weight: 1
+      - path: Armature/principal/coluna/ombro_l/asa_l
+        weight: 1
+      - path: Armature/principal/coluna/ombro_l/asa_l/ponta-asa_l
+        weight: 1
+      - path: Armature/principal/coluna/ombro_r
+        weight: 1
+      - path: Armature/principal/coluna/ombro_r/asa_r
+        weight: 1
+      - path: Armature/principal/coluna/ombro_r/asa_r/ponta-asa_r
+        weight: 1
+      - path: Objeto
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run
+      takeName: run
+      firstFrame: 19
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/principal
+        weight: 1
+      - path: Armature/principal/coluna
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l/coxa_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l/coxa_l/canela_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l/coxa_l/canela_l/pe_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r/coxa_r
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r/coxa_r/canela_r
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r/coxa_r/canela_r/pe_r
+        weight: 1
+      - path: Armature/principal/coluna/cabeca
+        weight: 1
+      - path: Armature/principal/coluna/cauda
+        weight: 1
+      - path: Armature/principal/coluna/cauda/ponta-cauda
+        weight: 1
+      - path: Armature/principal/coluna/ombro_l
+        weight: 1
+      - path: Armature/principal/coluna/ombro_l/asa_l
+        weight: 1
+      - path: Armature/principal/coluna/ombro_l/asa_l/ponta-asa_l
+        weight: 1
+      - path: Armature/principal/coluna/ombro_r
+        weight: 1
+      - path: Armature/principal/coluna/ombro_r/asa_r
+        weight: 1
+      - path: Armature/principal/coluna/ombro_r/asa_r/ponta-asa_r
+        weight: 1
+      - path: Objeto
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: voar
+      takeName: voar
+      firstFrame: -1
+      lastFrame: 62
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/principal
+        weight: 1
+      - path: Armature/principal/coluna
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l/coxa_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l/coxa_l/canela_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l/coxa_l/canela_l/pe_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r/coxa_r
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r/coxa_r/canela_r
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r/coxa_r/canela_r/pe_r
+        weight: 1
+      - path: Armature/principal/coluna/cabeca
+        weight: 1
+      - path: Armature/principal/coluna/cauda
+        weight: 1
+      - path: Armature/principal/coluna/cauda/ponta-cauda
+        weight: 1
+      - path: Armature/principal/coluna/ombro_l
+        weight: 1
+      - path: Armature/principal/coluna/ombro_l/asa_l
+        weight: 1
+      - path: Armature/principal/coluna/ombro_l/asa_l/ponta-asa_l
+        weight: 1
+      - path: Armature/principal/coluna/ombro_r
+        weight: 1
+      - path: Armature/principal/coluna/ombro_r/asa_r
+        weight: 1
+      - path: Armature/principal/coluna/ombro_r/asa_r/ponta-asa_r
+        weight: 1
+      - path: Objeto
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: walk
+      firstFrame: -1
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/principal
+        weight: 1
+      - path: Armature/principal/coluna
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l/coxa_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l/coxa_l/canela_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_l/coxa_l/canela_l/pe_l
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r/coxa_r
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r/coxa_r/canela_r
+        weight: 1
+      - path: Armature/principal/coluna/bacia_r/coxa_r/canela_r/pe_r
+        weight: 1
+      - path: Armature/principal/coluna/cabeca
+        weight: 1
+      - path: Armature/principal/coluna/cauda
+        weight: 1
+      - path: Armature/principal/coluna/cauda/ponta-cauda
+        weight: 1
+      - path: Armature/principal/coluna/ombro_l
+        weight: 1
+      - path: Armature/principal/coluna/ombro_l/asa_l
+        weight: 1
+      - path: Armature/principal/coluna/ombro_l/asa_l/ponta-asa_l
+        weight: 1
+      - path: Armature/principal/coluna/ombro_r
+        weight: 1
+      - path: Armature/principal/coluna/ombro_r/asa_r
+        weight: 1
+      - path: Armature/principal/coluna/ombro_r/asa_r/ponta-asa_r
+        weight: 1
+      - path: Objeto
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.5
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: principal
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

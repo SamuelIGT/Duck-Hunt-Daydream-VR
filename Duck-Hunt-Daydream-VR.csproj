@@ -524,6 +524,7 @@
     <Compile Include="Assets\Script\SpawnController.cs" />
     <Compile Include="Assets\Script\TextAnimation.cs" />
     <Compile Include="Assets\Script\TVScreenBlackout.cs" />
+    <Compile Include="Assets\Temp\Movimentacao.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\External Assets\DaydreamElements\Common\Demo\Art\Effects\ExponentialShadowMaps\Example\ESMReceiverTemplate.shader" />

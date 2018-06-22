@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TVScreenBlackout : MonoBehaviour {
     public EyeBlink eyeBlink;
@@ -20,7 +21,10 @@ public class TVScreenBlackout : MonoBehaviour {
         animator.SetBool("blackoutScreen", true);
 
         Invoke("blinkEye", blinkDelayInSeconds);
-        
+
+        Invoke("changeScene", blinkDelayInSeconds*4);
+
+
         //if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1 /*&& ("Screen Blackout")*/) {
         //    Debug.Log("Animação acabou!");
         //}
@@ -30,4 +34,10 @@ public class TVScreenBlackout : MonoBehaviour {
     {
         eyeBlink.blinkEye();
     }
+
+    private void changeScene()
+    {
+        SceneManager.LoadScene("Fase 1");
+    }
+
 }

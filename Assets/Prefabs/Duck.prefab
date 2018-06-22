@@ -205,6 +205,8 @@ MonoBehaviour:
   minAngleY: 0
   maxAngleY: 360
   speed: 0.2
+  rewardScore: 100
+  maxLife: 1
 --- !u!114 &114370646885919506
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -222,6 +224,8 @@ MonoBehaviour:
   minAngleY: 0
   maxAngleY: 360
   speed: 0.2
+  rewardScore: 100
+  maxLife: 1
 --- !u!114 &114858817163674670
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -239,3 +243,5 @@ MonoBehaviour:
   minAngleY: 0
   maxAngleY: 360
   speed: 0.2
+  rewardScore: 100
+  maxLife: 1

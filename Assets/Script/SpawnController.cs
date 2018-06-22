@@ -8,11 +8,13 @@ public class SpawnController : MonoBehaviour {
 	public int numberOfSpawnElements = 1;
 	public int spawnInterval = 5;
 
-	private int nextTime;
+    private ScoreController scoreController;
+
+    private int nextTime;
 
 	// Use this for initialization
 	void Start () {
-		
+        scoreController = GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreController>();
 	}
 	
 	// Update is called once per frame
@@ -31,6 +33,10 @@ public class SpawnController : MonoBehaviour {
 			newDuck.transform.position = randomPoints[i].position	;
 		}
 		Debug.Log(getRandomPoint().Length);
+
+        scoreController.setTotalDucksCount(1);
+
+
 	}
 
 	private Transform[] getRandomPoint(){

@@ -16,11 +16,11 @@ He faces a scenario of mass attacks of alien beings with characteristics similar
 Realizing the malevolent intent of the ducks, the young man, moved by the feeling of bravery and appreciation for this city, decides to take action in this situation, save Quixadá, at all costs!
 
 ### Teaser
-| ----------------------- |  | ----------------------- |
-|--|--|--|
-|  | ![](https://github.com/SamuelIGT/Duck-Hunt-Daydream-VR/blob/master/Project%20Resources/Imagens/dog.gif?raw=true) |  |
 
-[![duck hunt vr teaser](http://img.youtube.com/vi/Sov_2Xjaawg/0.jpg)](https://youtu.be/Sov_2Xjaawg)
+
+[![duck hunt vr teaser](http://img.youtube.com/vi/Sov_2Xjaawg/0.jpg)](https://youtu.be/Sov_2Xjaawg) ![](https://github.com/SamuelIGT/Duck-Hunt-Daydream-VR/blob/master/Project%20Resources/Imagens/dog_90d.gif?raw=true)
+
+
 
 ## Future Improvements
 

@@ -1,5 +1,3 @@
-https://samueligt.github.io/Duck-Hunt-Daydream-VR/
-
 # Duck-Hunt-Daydream-VR
 | ![enter image description here](https://github.com/SamuelIGT/Duck-Hunt-Daydream-VR/blob/master/Project%20Resources/Imagens/duck_left.gif?raw=true) | A VR shooter for Daydream VR  | ![enter image description here](https://github.com/SamuelIGT/Duck-Hunt-Daydream-VR/blob/master/Project%20Resources/Imagens/duck_right.gif?raw=true) | 
 |--|--|--|

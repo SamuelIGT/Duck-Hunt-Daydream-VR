@@ -18,7 +18,7 @@ Realizing the malevolent intent of the ducks, the young man, moved by the feelin
 ### Teaser
 
 
-[![duck hunt vr teaser](https://github.com/SamuelIGT/Duck-Hunt-Daydream-VR/blob/master/Project%20Resources/Imagens/thumbnail2.png?raw=true)](https://youtu.be/Sov_2Xjaawg) ![](https://github.com/SamuelIGT/Duck-Hunt-Daydream-VR/blob/master/Project%20Resources/Imagens/dog_90d.gif?raw=true)
+[![duck hunt vr teaser](https://github.com/SamuelIGT/Duck-Hunt-Daydream-VR/blob/master/Project%20Resources/Imagens/thumbnail3.png?raw=true)](https://youtu.be/Sov_2Xjaawg) ![](https://github.com/SamuelIGT/Duck-Hunt-Daydream-VR/blob/master/Project%20Resources/Imagens/dog_90d.gif?raw=true)
 
 
 

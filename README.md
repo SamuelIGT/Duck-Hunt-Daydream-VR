@@ -19,8 +19,7 @@ Realizing the malevolent intent of the ducks, the young man, moved by the feelin
 | ----------------------- |  | ----------------------- |
 |--|--|--|
 |  | ![](https://github.com/SamuelIGT/Duck-Hunt-Daydream-VR/blob/master/Project%20Resources/Imagens/dog.gif?raw=true) |  |
-<iframe width="854" height="480" src="https://www.youtube.com/embed/Sov_2Xjaawg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
+[![duck hunt vr teaser](http://img.youtube.com/vi/Sov_2Xjaawg/0.jpg)](https://youtu.be/Sov_2Xjaawg)
 
 ## Future Improvements
 

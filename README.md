@@ -1,5 +1,5 @@
 # Duck-Hunt-Daydream-VR
-| ![enter image description here](https://github.com/SamuelIGT/Duck-Hunt-Daydream-VR/blob/master/Project%20Resources/Imagens/duck_left.gif?raw=true) | Duck Hunt VR  | ![enter image description here](https://github.com/SamuelIGT/Duck-Hunt-Daydream-VR/blob/master/Project%20Resources/Imagens/duck_right.gif?raw=true) | 
+| ![enter image description here](https://github.com/SamuelIGT/Duck-Hunt-Daydream-VR/blob/master/Project%20Resources/Imagens/duck_left.gif?raw=true) | :boom: :alien: :gun: Duck Hunt VR :boom: :alien: :gun: | ![enter image description here](https://github.com/SamuelIGT/Duck-Hunt-Daydream-VR/blob/master/Project%20Resources/Imagens/duck_right.gif?raw=true) | 
 |--|--|--|
 |  |  |  |
 

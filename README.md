@@ -1,5 +1,5 @@
 # Duck-Hunt-Daydream-VR
-| ![enter image description here](https://github.com/SamuelIGT/Duck-Hunt-Daydream-VR/blob/master/Project%20Resources/Imagens/duck_left.gif?raw=true) | A VR shooter for Daydream VR  | ![enter image description here](https://github.com/SamuelIGT/Duck-Hunt-Daydream-VR/blob/master/Project%20Resources/Imagens/duck_right.gif?raw=true) | 
+| ![enter image description here](https://github.com/SamuelIGT/Duck-Hunt-Daydream-VR/blob/master/Project%20Resources/Imagens/duck_left.gif?raw=true) | Duck Hunt VR  | ![enter image description here](https://github.com/SamuelIGT/Duck-Hunt-Daydream-VR/blob/master/Project%20Resources/Imagens/duck_right.gif?raw=true) | 
 |--|--|--|
 |  |  |  |
 
@@ -15,7 +15,7 @@ He faces a scenario of mass attacks of alien beings with characteristics similar
 
 Realizing the malevolent intent of the ducks, the young man, moved by the feeling of bravery and appreciation for this city, decides to take action in this situation, save Quixadá, at all costs!
 
-### Teaser
+### Teaser Trailer
 
 
 [![duck hunt vr teaser](https://github.com/SamuelIGT/Duck-Hunt-Daydream-VR/blob/master/Project%20Resources/Imagens/thumbnail3.png?raw=true)](https://youtu.be/Sov_2Xjaawg) ![](https://github.com/SamuelIGT/Duck-Hunt-Daydream-VR/blob/master/Project%20Resources/Imagens/dog_90d.gif?raw=true)
